@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.section {
+  background-color: rgb(43, 40, 40);
+  color: whitesmoke;
+  padding: 2rem;
+  padding-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+img {
+  width: 65vw;
+  height: auto;
+  border-radius: 50px;
+}
+
+.card {
+  margin: inherit;
+  width: 60%;
+}
+#section1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#pllama-btn btn {
+  border-radius: 50%;
+  font-family: "Times New Roman";
+  color: black;
+  background-color: aquamarine;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  font-family: "Times New Roman";
+  text-decoration: none;
+  color: beige;
+  text-align: center;
+  font-size: 50px;
+  transition: all 0.3s ease-in;
+}
+.btn:hover {
+  border-radius: 25px;
+}
