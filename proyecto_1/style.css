@@ -12,10 +12,27 @@ body {
   overflow-x: hidden;
 }
 
-.section {
+.fluid-grid {
   background-color: rgb(43, 40, 40);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.header > * {
+  margin: 1rem auto;
+}
+
+.section {
   color: whitesmoke;
-  padding: 2rem;
+
   padding-top: 4rem;
   margin-left: auto;
   margin-right: auto;
@@ -25,9 +42,13 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 img {
-  width: 65vw;
+  width: 100%;
   height: auto;
   border-radius: 50px;
+}
+
+.header img {
+  width: 50vh;
 }
 
 .card {
