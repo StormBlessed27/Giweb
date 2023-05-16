@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register{ 
+    width: 400px;
+    background-color: rgb(55, 118, 138);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color:skyblue;
+
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-register .botons{
+    width: 100%;
+    background-color:skyblue;
+    padding: 12px;
+    color:white;
+    margin: 16px;
+    font-size: 16px;    
+
+}
+
+.control{
+
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family: 'Times New Roman', Times, serif;  
+  
+}
